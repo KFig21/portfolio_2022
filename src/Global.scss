@@ -1,0 +1,19 @@
+// SCROLLBAR
+::-webkit-scrollbar {
+  width: 23px;
+  height: 23px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border: solid 8px transparent;
+  background-clip: content-box;
+}
+
+* {
+  box-sizing: border-box;
+}
