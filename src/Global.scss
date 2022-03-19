@@ -17,3 +17,8 @@
 * {
   box-sizing: border-box;
 }
+
+.app {
+  overflow-x: hidden;
+  overflow-y: overlay;
+}

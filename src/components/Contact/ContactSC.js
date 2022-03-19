@@ -354,33 +354,26 @@ const ContactSC = {
   `,
   ContactItemDetails: styled.div`
     display: flex;
+  `,
+  ContactItemTitle: styled.span`
+    ${(props) => props.theme.colors.textOnContainerColor} !important;
+  `,
+  ContactItemLink: styled.a`
+    color: ${(props) => props.theme.colors.subtextOnContainerColor} !important;
+    padding-left: 5px !important;
+    transition: all 0.2s linear;
+    text-decoration: none !important;
+    cursor: pointer;
 
-    .item-span-title {
-      color: white;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 200px !important;
 
-      @include mobileHorizontal {
-        display: none;
-      }
-    }
-
-    .item-span {
-      color: ${(props) =>
-        props.theme.colors.subtextOnContainerColor} !important;
-      padding-left: 5px !important;
-      transition: all 0.2s linear;
-      text-decoration: none !important;
-      cursor: pointer;
-
-      overflow: hidden !important;
-      text-overflow: ellipsis !important;
-      white-space: nowrap !important;
-      max-width: 200px !important;
-
-      @media (min-height: ${mobileHeightMin}) {
-        @media (max-width: ${mobileWidthMax}) {
-          max-width: 150px;
-          min-width: 150px;
-        }
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        max-width: 150px;
+        min-width: 150px;
       }
     }
   `,

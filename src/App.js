@@ -18,6 +18,7 @@ import lightRedTheme from "./themes/LightTheme_Red";
 import darkBlueTheme from "./themes/DarkTheme_Blue";
 import lightBlueTheme from "./themes/LightTheme_Blue";
 import MobileMenu from "./components/MobileMenu/MobileMenu";
+import "./Global.scss";
 
 function App() {
   const allThemes = [

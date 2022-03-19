@@ -46,6 +46,7 @@ const SC = {
     ::-webkit-scrollbar {
       width: 23px;
       height: 23px;
+      z-index: 100;
     }
 
     ::-webkit-scrollbar-track {

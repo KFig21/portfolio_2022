@@ -149,10 +149,15 @@ export default function Contact() {
                 <Mail className="icon" />
               </ContactSC.ContactIcon>
               <ContactSC.ContactItemDetails className="item-details">
-                <span className="item-span-title">Email:</span>
-                <span className="item-span" id="email-contact-span">
+                <ContactSC.ContactItemTitle className="item-span-title">
+                  Email:
+                </ContactSC.ContactItemTitle>
+                <ContactSC.ContactItemLink
+                  className="item-span"
+                  id="email-contact-span"
+                >
                   {email}
-                </span>
+                </ContactSC.ContactItemLink>
               </ContactSC.ContactItemDetails>
             </ContactSC.ContactItem>
             {/* phone */}
@@ -168,10 +173,15 @@ export default function Contact() {
                 <Phone className="icon" />
               </ContactSC.ContactIcon>
               <ContactSC.ContactItemDetails className="item-details">
-                <span className="item-span-title">Phone:</span>
-                <span className="item-span" id="phone-contact-span">
+                <ContactSC.ContactItemTitle className="item-span-title">
+                  Phone:
+                </ContactSC.ContactItemTitle>
+                <ContactSC.ContactItemLink
+                  className="item-span"
+                  id="phone-contact-span"
+                >
                   {phone}
-                </span>
+                </ContactSC.ContactItemLink>
               </ContactSC.ContactItemDetails>
             </ContactSC.ContactItem>
             {/* github */}
@@ -187,8 +197,10 @@ export default function Contact() {
                 <GitHub className="icon" />
               </ContactSC.ContactIcon>
               <ContactSC.ContactItemDetails className="item-details">
-                <span className="item-span-title">Github:</span>
-                <a
+                <ContactSC.ContactItemTitle className="item-span-title">
+                  GitHub:
+                </ContactSC.ContactItemTitle>
+                <ContactSC.ContactItemLink
                   className="item-span"
                   id="gitHub-contact-span"
                   href="https://github.com/KFig21"
@@ -196,7 +208,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                 >
                   {github}
-                </a>
+                </ContactSC.ContactItemLink>
               </ContactSC.ContactItemDetails>
             </ContactSC.ContactItem>
             {/* linkedin */}
@@ -212,8 +224,10 @@ export default function Contact() {
                 <LinkedIn className="icon" />
               </ContactSC.ContactIcon>
               <ContactSC.ContactItemDetails className="item-details">
-                <span className="item-span-title">LinkedIn:</span>
-                <a
+                <ContactSC.ContactItemTitle className="item-span-title">
+                  LinkedIn:
+                </ContactSC.ContactItemTitle>
+                <ContactSC.ContactItemLink
                   className="item-span"
                   id="linkedin-contact-span"
                   href="https://www.linkedin.com/in/kevin-figenshu-4748672a/"
@@ -221,7 +235,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                 >
                   {linkedin}
-                </a>
+                </ContactSC.ContactItemLink>
               </ContactSC.ContactItemDetails>
             </ContactSC.ContactItem>
             {/* leetcode */}
@@ -237,8 +251,10 @@ export default function Contact() {
                 <LeetCodeIcon class="icon" />
               </ContactSC.ContactIcon>
               <ContactSC.ContactItemDetails className="item-details">
-                <span className="item-span-title">Leetcode:</span>
-                <a
+                <ContactSC.ContactItemTitle className="item-span-title">
+                  LeetCode:
+                </ContactSC.ContactItemTitle>
+                <ContactSC.ContactItemLink
                   className="item-span"
                   id="gitHub-contact-span"
                   href="https://leetcode.com/KFig21/"
@@ -246,7 +262,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                 >
                   {leetcode}
-                </a>
+                </ContactSC.ContactItemLink>
               </ContactSC.ContactItemDetails>
             </ContactSC.ContactItem>
           </ContactSC.InfoContainer>
