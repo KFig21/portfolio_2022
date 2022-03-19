@@ -364,16 +364,17 @@ const ContactSC = {
     }
 
     .item-span {
-      color: ${(props) => props.theme.colors.subtextOnContainerColor};
-      padding-left: 5px;
+      color: ${(props) =>
+        props.theme.colors.subtextOnContainerColor} !important;
+      padding-left: 5px !important;
       transition: all 0.2s linear;
-      text-decoration: none;
+      text-decoration: none !important;
       cursor: pointer;
 
       overflow: hidden !important;
       text-overflow: ellipsis !important;
       white-space: nowrap !important;
-      max-width: 200px;
+      max-width: 200px !important;
 
       @media (min-height: ${mobileHeightMin}) {
         @media (max-width: ${mobileWidthMax}) {
