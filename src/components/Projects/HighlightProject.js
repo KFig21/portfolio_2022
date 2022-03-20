@@ -5,13 +5,19 @@ import LanguageIcon from "@mui/icons-material/Language";
 import CodeIcon from "@mui/icons-material/Code";
 import SC from "../../themes/SC";
 
-export default function HighlightProject({ project, handleDetails }) {
-  const [mainImg, setMainImg] = useState(project.imgs[0].src);
+export default function HighlightProject({
+  project,
+  handleDetails,
+  setImageModalProject,
+  setShowImageModal,
+  setImageModalSrc,
+}) {
   const [mainImgIndex, setMainImgIndex] = useState(0);
 
   const handleMainImg = (i) => {
-    setMainImg(project.imgs[i].src);
-    setMainImgIndex(i);
+    setImageModalProject(project);
+    setImageModalSrc(i);
+    setShowImageModal(true);
   };
 
   // map project technologies
@@ -98,9 +104,6 @@ export default function HighlightProject({ project, handleDetails }) {
       {/* RIGHT */}
       <ProjectsSC.HighlightRight className="right">
         <ProjectsSC.HighlightRightInner className="inner">
-          <ProjectsSC.HighlightMainImg>
-            <img src={mainImg} alt="" />
-          </ProjectsSC.HighlightMainImg>
           <ProjectsSC.GalleryContainer className="gallery">
             {project.imgs.map((img, i) => {
               return (

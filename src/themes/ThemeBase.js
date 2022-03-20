@@ -9,7 +9,7 @@ export const dark_ContainerBgColor = "rgb(43,47,51)";
 export const dark_ContainerBgColor2 = "rgb(26,30,33)";
 export const dark_logo_border = "transparent";
 export const dark_ThemeContainerBgColor = "rgba(150, 150, 150, 0.0)";
-export const dark_CurrentImgBorderColor = "rgb(66,70,74)";
+export const dark_CurrentImgBorderColor = "rgb(68,72,76)";
 export const dark_MM_BackgroundColor = "rgba(10, 10, 10, 0.75)";
 export const dark_MM_ContainerColor = "rgb(12, 12, 12)";
 

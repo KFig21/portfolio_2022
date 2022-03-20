@@ -34,9 +34,6 @@ const highlightInnerNotch = "43px";
 const projectNotch = "20px";
 const techNotch = "6px";
 
-const HighlightMainImgContainerWidth = "75%";
-const HighlightMainImgContainerHeight = "100%";
-const HighlightGalleryContainerWidth = "25%";
 const HighlightGalleryContainerHeight = "100%";
 const projImgContainerWidth = "160px";
 const projImgContainerWidthMobile = "85px";
@@ -233,7 +230,7 @@ const ProjectsSC = {
 
     &.highlight {
       display: flex;
-      padding: 10px 0px 10px 15px;
+      padding: 10px 0px 20px 15px;
     }
 
     // animation
@@ -797,16 +794,16 @@ const ProjectsSC = {
     -webkit-clip-path: polygon(
       ${highlightNotch} 0%,
       100% 0,
-      100% calc(100% - ${highlightNotch}),
-      calc(100% - ${highlightNotch}) 100%,
+      100% 0,
+      0 100%,
       0 100%,
       0% ${highlightNotch}
     );
     clip-path: polygon(
       ${highlightNotch} 0%,
       100% 0,
-      100% calc(100% - ${highlightNotch}),
-      calc(100% - ${highlightNotch}) 100%,
+      100% 100%,
+      100% 100%,
       0 100%,
       0% ${highlightNotch}
     );
@@ -819,38 +816,11 @@ const ProjectsSC = {
   `,
   HighlightRightInner: styled.div`
     margin: 15px 2px 15px 15px;
-    overflow: hidden;
+    overflow-y: scroll;
     width: 100%;
     display: flex;
-
-    -webkit-clip-path: polygon(
-      ${highlightInnerNotch} 0%,
-      100% 0,
-      100% calc(100% - ${highlightInnerNotch}),
-      calc(100% - ${highlightInnerNotch}) 100%,
-      0 100%,
-      0% ${highlightInnerNotch}
-    );
-    clip-path: polygon(
-      ${highlightInnerNotch} 0%,
-      100% 0,
-      100% 100%,
-      100% 100%,
-      0 100%,
-      0% ${highlightInnerNotch}
-    );
-  `,
-  HighlightMainImg: styled.div`
-    min-width: ${HighlightMainImgContainerWidth};
-    max-width: ${HighlightMainImgContainerWidth};
-    // min-height: ${HighlightMainImgContainerHeight};
-    // max-height: ${HighlightMainImgContainerHeight};
-    background-color: black;
-
-    display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    overflow: hidden;
 
     -webkit-clip-path: polygon(
       ${highlightInnerNotch} 0%,
@@ -868,24 +838,6 @@ const ProjectsSC = {
       0 100%,
       0% ${highlightInnerNotch}
     );
-
-    img {
-      min-width: 100%;
-      max-width: 100%;
-      min-height: 100%;
-      max-height: 100%;
-      object-fit: contain;
-    }
-  `,
-
-  GalleryContainer: styled.div`
-    display: flex;
-    flex-direction: column;
-    min-width: ${HighlightGalleryContainerWidth};
-    max-width: ${HighlightGalleryContainerWidth};
-    // min-height: ${HighlightGalleryContainerHeight};
-    // max-height: ${HighlightGalleryContainerHeight};
-    overflow-y: scroll;
 
     ::-webkit-scrollbar {
       width: 23px;
@@ -909,29 +861,27 @@ const ProjectsSC = {
       }
     }
   `,
+
+  GalleryContainer: styled.div`
+    display: flex;
+    flex-direction: column;
+    // min-height: ${HighlightGalleryContainerHeight};
+    // max-height: ${HighlightGalleryContainerHeight};
+  `,
   GalleryImg: styled.div`
     min-width: 100%;
     max-width: 100%;
-    padding: 0px 0px 10px 10px;
+    padding: 10px 10px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
       object-fit: contain;
-      min-width: 100%;
       max-width: 100%;
+      max-height: 320px;
       border: solid 5px ${(props) => props.theme.colors.ContainerBgColor};
       cursor: pointer;
-
-      &:hover {
-        border: solid 4px ${(props) => props.theme.colors.primaryColorFaded};
-      }
-
-      &.current {
-        border: solid 4px ${(props) => props.theme.colors.currentImgBorderColor};
-
-        &:hover {
-          border: solid 4px ${(props) => props.theme.colors.primaryColorFaded};
-        }
-      }
     }
   `,
 };

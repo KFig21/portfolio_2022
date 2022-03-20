@@ -13,7 +13,11 @@ import LanguageIcon from "@mui/icons-material/Language";
 import CodeIcon from "@mui/icons-material/Code";
 import HighlightProject from "./HighlightProject";
 
-export default function Projects() {
+export default function Projects({
+  setImageModalProject,
+  setShowImageModal,
+  setImageModalSrc,
+}) {
   const _projects = [
     nodebookProjectData,
     applifyProjectData,
@@ -170,7 +174,13 @@ export default function Projects() {
         >
           {content && <>{mapProjects(_projects)} </>}
           {!content && (
-            <HighlightProject project={proj} handleDetails={handleDetails} />
+            <HighlightProject
+              project={proj}
+              handleDetails={handleDetails}
+              setImageModalProject={setImageModalProject}
+              setShowImageModal={setShowImageModal}
+              setImageModalSrc={setImageModalSrc}
+            />
           )}
         </ProjectsSC.ProjectsBottom>
       </ProjectsSC.ProjectsContainer>

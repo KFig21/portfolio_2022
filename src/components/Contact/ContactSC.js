@@ -356,7 +356,7 @@ const ContactSC = {
     display: flex;
   `,
   ContactItemTitle: styled.span`
-    ${(props) => props.theme.colors.textOnContainerColor} !important;
+    color: ${(props) => props.theme.colors.textOnContainerColor} !important;
   `,
   ContactItemLink: styled.a`
     color: ${(props) => props.theme.colors.subtextOnContainerColor} !important;
@@ -368,7 +368,7 @@ const ContactSC = {
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
-    max-width: 200px !important;
+    max-width: 200px;
 
     @media (min-height: ${mobileHeightMin}) {
       @media (max-width: ${mobileWidthMax}) {

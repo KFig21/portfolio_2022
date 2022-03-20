@@ -19,6 +19,7 @@ import darkBlueTheme from "./themes/DarkTheme_Blue";
 import lightBlueTheme from "./themes/LightTheme_Blue";
 import MobileMenu from "./components/MobileMenu/MobileMenu";
 import "./Global.scss";
+import ImageModal from "./components/Modal/ImageModal";
 
 function App() {
   const allThemes = [
@@ -32,10 +33,12 @@ function App() {
     lightBlueTheme,
   ];
   const [theme, setTheme] = useState(darkYellowTheme);
-  // const [theme, setTheme] = useState(lightYellowTheme);
   const [theme1, setTheme1] = useState("dark");
   const [theme2, setTheme2] = useState("YellowTheme");
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [imageModalProject, setImageModalProject] = useState({});
+  const [imageModalSrc, setImageModalSrc] = useState(0);
+  const [showImageModal, setShowImageModal] = useState(false);
   const [currentPage, setCurrentPage] = useState("home");
 
   // scroll functionality for nav
@@ -110,9 +113,21 @@ function App() {
             theme2={theme2}
             handleSetTheme={handleSetTheme}
           />
+          <ImageModal
+            imageModalProject={imageModalProject}
+            setShowImageModal={setShowImageModal}
+            showImageModal={showImageModal}
+            imageModalSrc={imageModalSrc}
+            setImageModalSrc={setImageModalSrc}
+          />
+          {/* PAGES */}
           <Home />
           <About />
-          <Projects />
+          <Projects
+            setImageModalProject={setImageModalProject}
+            setShowImageModal={setShowImageModal}
+            setImageModalSrc={setImageModalSrc}
+          />
           <Skills />
           <Contact />
           <Background theme={theme} />

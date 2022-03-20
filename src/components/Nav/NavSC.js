@@ -381,7 +381,7 @@ const NavSC = {
   `,
   HamburgerContainer: styled.div`
     display: none;
-    color: ${(props) => props.theme.colors.primaryColor};
+    color: ${(props) => props.theme.colors.pageCornerColor};
     position: absolute;
     left: -10px;
     top: 50%;
