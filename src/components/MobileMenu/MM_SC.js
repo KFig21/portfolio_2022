@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { mobileWidthMax, mobileKeyboardHeightMax } from "../../themes/SC";
+
 const MM_SC = {
   MM_Page: styled.div`
     width: 100vw;
@@ -22,6 +24,12 @@ const MM_SC = {
 
     &.close {
       z-index: 100;
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
     }
   `,
   MM_Background: styled.div`

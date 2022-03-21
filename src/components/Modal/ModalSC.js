@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-import { mobileHeightMin, mobileWidthMax } from "../../themes/SC";
+import {
+  mobileHeightMin,
+  mobileWidthMax,
+  mobileKeyboardHeightMax,
+} from "../../themes/SC";
 
 const ModalSC = {
   ModalPage: styled.div`
@@ -32,6 +36,12 @@ const ModalSC = {
         &.nav-right {
           display: none;
         }
+      }
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
       }
     }
   `,

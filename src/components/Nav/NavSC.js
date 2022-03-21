@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-import { navHeight, mobileWidthMax, mobileHeightMin } from "../../themes/SC";
+import {
+  navHeight,
+  mobileWidthMax,
+  mobileHeightMin,
+  mobileKeyboardHeightMax,
+} from "../../themes/SC";
 
 const notch = "10px";
 const themeNotch = "10px";
@@ -29,6 +34,12 @@ const NavSC = {
     }
     &.false {
       background-color: transparent;
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
     }
   `,
   NavWrapper: styled.div`

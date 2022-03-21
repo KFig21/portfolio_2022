@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-import { navHeight, mobileWidthMax, mobileHeightMin } from "../../themes/SC";
+import {
+  navHeight,
+  mobileWidthMax,
+  mobileHeightMin,
+  mobileKeyboardHeightMax,
+} from "../../themes/SC";
 
 const notch = "34px";
 
@@ -19,6 +24,12 @@ const HomeSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
+    }
   `,
 
   HomeTitle: styled.span`

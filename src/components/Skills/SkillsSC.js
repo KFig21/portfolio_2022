@@ -22,6 +22,7 @@ import {
   mobileWidthMax,
   mobileHeightMin,
   desktopWidthMin,
+  mobileKeyboardHeightMax,
 } from "../../themes/SC";
 
 const notch = "60px";
@@ -43,6 +44,12 @@ const SkillsSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
+    }
   `,
 
   SkillsContainer: styled.div`

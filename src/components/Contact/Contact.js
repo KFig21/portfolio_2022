@@ -94,11 +94,18 @@ export default function Contact() {
       {/* CONTAINER */}
       <ContactSC.ContactContainer>
         {/* LEFT */}
-        <ContactSC.ContactLeft>
-          <ContactSC.ContactTitle href="#contact">
+        <ContactSC.ContactLeft className="contact-left">
+          <ContactSC.ContactTitle
+            href="#contact"
+            className="contact-left-title"
+          >
             Lets get in touch
           </ContactSC.ContactTitle>
-          <ContactSC.ContactForm ref={formRef} onSubmit={handleSubmit}>
+          <ContactSC.ContactForm
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="contact-form"
+          >
             <ContactSC.ContactInput
               type="text"
               placeholder="Name"
@@ -128,7 +135,7 @@ export default function Contact() {
           </ContactSC.ContactForm>
         </ContactSC.ContactLeft>
         {/* RIGHT */}
-        <ContactSC.ContactRight>
+        <ContactSC.ContactRight className="contact-right">
           <ContactSC.ContactTitle href="#contact">
             Contact Info
           </ContactSC.ContactTitle>

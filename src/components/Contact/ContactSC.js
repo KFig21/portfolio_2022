@@ -5,6 +5,7 @@ import {
   mobileWidthMax,
   mobileHeightMin,
   desktopWidthMin,
+  mobileKeyboardHeightMax,
 } from "../../themes/SC";
 
 const notch = "45px";
@@ -79,6 +80,15 @@ const ContactSC = {
         }
       }
     }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        min-height: 90%;
+        max-height: 90%;
+        overflow-x: hidden;
+        border-bottom: none;
+      }
+    }
   `,
   ContactTitle: styled.a`
     color: ${(props) => props.theme.colors.textOnContainerColor};
@@ -88,6 +98,12 @@ const ContactSC = {
     text-decoration: none;
 
     z-index: 2;
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
+    }
   `,
   ContactSubtext: styled.span`
     color: ${(props) => props.theme.colors.subtextOnContainerColor};
@@ -120,6 +136,14 @@ const ContactSC = {
         padding: 20px 20px;
       }
     }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        max-width: 300px;
+        min-width: 300px;
+        padding: 20px 20px;
+      }
+    }
   `,
   ContactForm: styled.form`
     display: flex;
@@ -130,6 +154,12 @@ const ContactSC = {
     margin: 8px auto auto auto;
 
     @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        width: 100%;
+      }
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
       @media (max-width: ${mobileWidthMax}) {
         width: 100%;
       }
@@ -246,6 +276,12 @@ const ContactSC = {
         width: 100%;
       }
     }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        width: 100%;
+      }
+    }
   `,
   ContactMessage: styled.textarea`
     &:focus {
@@ -299,6 +335,12 @@ const ContactSC = {
         min-width: 300px;
         min-height: 435px;
         padding: 20px 20px;
+      }
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
       }
     }
   `,

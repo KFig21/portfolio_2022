@@ -25,6 +25,7 @@ import {
   mobileWidthMax,
   mobileHeightMin,
   desktopWidthMin,
+  mobileKeyboardHeightMax,
 } from "../../themes/SC";
 
 const notch = "60px";
@@ -54,6 +55,12 @@ const ProjectsSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
+    }
   `,
   ProjectsContainer: styled.div`
     background-color: ${(props) => props.theme.colors.ContainerBgColor};

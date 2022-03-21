@@ -1,6 +1,11 @@
 import styled, { keyframes } from "styled-components";
 
-import { navHeight, mobileWidthMax, mobileHeightMin } from "../../themes/SC";
+import {
+  navHeight,
+  mobileWidthMax,
+  mobileHeightMin,
+  mobileKeyboardHeightMax,
+} from "../../themes/SC";
 
 const gradientAnimation = keyframes`
 0% {
@@ -31,6 +36,12 @@ const AboutSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
+      }
+    }
   `,
   AboutContainer: styled.div`
     background-color: ${(props) => props.theme.colors.ContainerBgColor2};

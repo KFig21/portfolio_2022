@@ -27,6 +27,8 @@ export const mobileWidthMax = "800px";
 export const mobileHeightMin = "421px";
 // desktop
 export const desktopWidthMin = "801px";
+// mobile keyboard
+export const mobileKeyboardHeightMax = "500px";
 
 const SC = {
   // App.js
@@ -100,6 +102,12 @@ const SC = {
         @media (max-width: ${mobileWidthMax}) {
           right: 25px;
         }
+      }
+    }
+
+    @media (max-height: ${mobileKeyboardHeightMax}) {
+      @media (max-width: ${mobileWidthMax}) {
+        display: none;
       }
     }
   `,
