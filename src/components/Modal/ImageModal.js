@@ -53,10 +53,16 @@ export default function ImageModal({
         />
         {/* IMAGE */}
         {showImageModal && (
-          <ModalSC.ModalImg
-            src={imageModalProject.imgs[imageModalSrc].src}
-            alt=""
-          />
+          <a
+            href={imageModalProject.imgs[imageModalSrc].src}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ModalSC.ModalImg
+              src={imageModalProject.imgs[imageModalSrc].src}
+              alt=""
+            />
+          </a>
         )}
         {/* IMAGE COUNT */}
         <ModalSC.ImageCountContainer>
