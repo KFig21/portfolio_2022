@@ -30,15 +30,6 @@ const ModalSC = {
       bottom: -2000px;
     }
 
-    @media (min-height: ${mobileHeightMin}) {
-      @media (max-width: ${mobileWidthMax}) {
-        display: none;
-        &.nav-right {
-          display: none;
-        }
-      }
-    }
-
     @media (max-height: ${mobileKeyboardHeightMax}) {
       @media (max-width: ${mobileWidthMax}) {
         display: none;
@@ -142,6 +133,66 @@ const ModalSC = {
         right: -70px;
       }
     }
+
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        background-color: transparent;
+        max-width: 75vw;
+        min-width: 75vw;
+        min-height: unset;
+        max-height: 80vh;
+
+        .close-icon {
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          color: ${(props) => props.theme.colors.textOnContainerColor};
+          z-index: 4;
+          cursor: pointer;
+          background-color: crimson;
+          border-radius: 50px;
+          opacity: 0.4;
+          transition: all ease 0.15s;
+
+          &:hover {
+            opacity: 1;
+          }
+
+          min-width: 20px;
+          max-width: 20px;
+          max-height: 20px;
+          min-height: 20px;
+        }
+
+        .arrow-icon {
+          position: absolute;
+          color: ${(props) => props.theme.colors.textOnBgColor};
+          z-index: 4;
+          cursor: pointer;
+          opacity: 0.4;
+          transition: all ease 0.15s;
+          top: 50%;
+          transform: translateY(-50%);
+
+          &:hover {
+            opacity: 1;
+          }
+
+          min-width: 36px;
+          max-width: 36px;
+          max-height: 36px;
+          min-height: 36px;
+
+          &.back {
+            left: -45px;
+          }
+
+          &.fwd {
+            right: -45px;
+          }
+        }
+      }
+    }
   `,
 
   ModalImg: styled.img`
@@ -149,6 +200,16 @@ const ModalSC = {
     max-width: 80vw;
     min-height: 80vh;
     max-height: 80vh;
+
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        object-fit: contain;
+        max-width: 75vw;
+        min-width: 75vw;
+        min-height: unset;
+        max-height: 80vh;
+      }
+    }
   `,
 
   ImageCountContainer: styled.div`

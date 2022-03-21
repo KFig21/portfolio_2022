@@ -42,7 +42,7 @@ export default function Projects({
   const mapProjects = (projects) => {
     return projects.map((project) => (
       <ProjectsSC.ProjectWrapper className={active ? "close" : "open"}>
-        <ProjectsSC.ImgContainer>
+        <ProjectsSC.ImgContainer onClick={() => handleDetails(project)}>
           <img src={project.favicon} alt="" />
         </ProjectsSC.ImgContainer>
         <ProjectsSC.ProjectInfo className="project-info">

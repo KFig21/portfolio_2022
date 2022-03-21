@@ -70,17 +70,6 @@ export default function HighlightProject({
             <CodeIcon className="title-icon code" />
           </ProjectsSC.ProjectLink>
         </ProjectsSC.HighlightTitleContainer>
-
-        {/* DESCRIPTION */}
-        <ProjectsSC.HighlightDescContainer className="desc-container">
-          <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> {project.desc}
-        </ProjectsSC.HighlightDescContainer>
-
-        {/* TECH */}
-        <ProjectsSC.HighlightTechContainer>
-          {mapTech(project.icons)}
-        </ProjectsSC.HighlightTechContainer>
-
         {/* MOBILE LINKS */}
         <ProjectsSC.MobileLinks>
           {/* LIVE LINK */}
@@ -100,6 +89,16 @@ export default function HighlightProject({
             <CodeIcon className="title-icon code" />
           </ProjectsSC.ProjectLinkMobile>
         </ProjectsSC.MobileLinks>
+
+        {/* DESCRIPTION */}
+        <ProjectsSC.HighlightDescContainer className="desc-container">
+          <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> {project.desc}
+        </ProjectsSC.HighlightDescContainer>
+
+        {/* TECH */}
+        <ProjectsSC.HighlightTechContainer>
+          {mapTech(project.icons)}
+        </ProjectsSC.HighlightTechContainer>
       </ProjectsSC.HighlightLeft>
       {/* RIGHT */}
       <ProjectsSC.HighlightRight className="right">

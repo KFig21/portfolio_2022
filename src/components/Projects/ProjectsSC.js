@@ -432,6 +432,13 @@ const ProjectsSC = {
     align-items: center;
     justify-content: center;
     color: ${(props) => props.theme.colors.subtextOnContainerColor};
+
+    .title-icon {
+      min-height: 30px;
+      max-height: 30px;
+      max-width: 30px;
+      min-width: 30px;
+    }
   `,
   ProjectDetail: styled.span`
     font-size: 17px;
@@ -612,7 +619,7 @@ const ProjectsSC = {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
-        margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
   `,
@@ -817,7 +824,24 @@ const ProjectsSC = {
 
     @media (min-height: ${mobileHeightMin}) {
       @media (max-width: ${mobileWidthMax}) {
-        display: none;
+        margin: 5px;
+
+        -webkit-clip-path: polygon(
+          ${projectNotch} 0%,
+          100% 0,
+          100% calc(100% - ${projectNotch}),
+          calc(100% - ${projectNotch}) 100%,
+          0 100%,
+          0% ${projectNotch}
+        );
+        clip-path: polygon(
+          ${projectNotch} 0%,
+          100% 0,
+          100% calc(100% - ${projectNotch}),
+          calc(100% - ${projectNotch}) 100%,
+          0 100%,
+          0% ${projectNotch}
+        );
       }
     }
   `,
@@ -845,6 +869,31 @@ const ProjectsSC = {
       0 100%,
       0% ${highlightInnerNotch}
     );
+
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        margin: 5px;
+        padding: 5px 0px;
+        overflow-y: visible;
+
+        -webkit-clip-path: polygon(
+          ${projectNotch} 0%,
+          100% 0,
+          100% calc(100% - ${projectNotch}),
+          calc(100% - ${projectNotch}) 100%,
+          0 100%,
+          0% ${projectNotch}
+        );
+        clip-path: polygon(
+          ${projectNotch} 0%,
+          100% 0,
+          100% calc(100% - ${projectNotch}),
+          calc(100% - ${projectNotch}) 100%,
+          0 100%,
+          0% ${projectNotch}
+        );
+      }
+    }
 
     ::-webkit-scrollbar {
       width: 23px;
@@ -889,6 +938,12 @@ const ProjectsSC = {
       max-height: 320px;
       border: solid 5px ${(props) => props.theme.colors.ContainerBgColor};
       cursor: pointer;
+    }
+
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        padding: 10px 15px;
+      }
     }
   `,
 };
