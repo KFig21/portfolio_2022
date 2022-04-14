@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.897b5813.css",
-    "main.js": "/portfolio_2022/static/js/main.502cfaac.js",
-    "static/media/applify-0.gif": "/portfolio_2022/static/media/applify-0.3855a9cb678661f2f7ae.gif",
+    "main.js": "/portfolio_2022/static/js/main.677fa8c2.js",
     "static/media/gameNseek-favicon.png": "/portfolio_2022/static/media/gameNseek-favicon.e34f69530cc901cf879e.png",
     "static/media/gameNseek-3.png": "/portfolio_2022/static/media/gameNseek-3.c27d13bf24a0721cc475.png",
     "static/media/gameNseek-4.PNG": "/portfolio_2022/static/media/gameNseek-4.6e122763b752cb40b972.PNG",
     "static/media/lightBG.mp4": "/portfolio_2022/static/media/lightBG.c047515e11d1dd4200ca.mp4",
-    "static/media/petstagram-1.PNG": "/portfolio_2022/static/media/petstagram-1.310f57a7cf65305b420d.PNG",
-    "static/media/petstagram-3.PNG": "/portfolio_2022/static/media/petstagram-3.1823904363cd15984fb2.PNG",
-    "static/media/petstagram-2.png": "/portfolio_2022/static/media/petstagram-2.c49d0060397461a42331.png",
     "static/media/gameNseek-1.PNG": "/portfolio_2022/static/media/gameNseek-1.75d216fe04609acdeffb.PNG",
     "static/media/nodebook-6.png": "/portfolio_2022/static/media/nodebook-6.f41d60680c4ee25713d4.png",
-    "static/media/petstagram-4.PNG": "/portfolio_2022/static/media/petstagram-4.5b85272a89d0b0c33afa.PNG",
+    "static/media/peffl-favicon.png": "/portfolio_2022/static/media/peffl-favicon.317064f40abbe483f5a5.png",
     "static/media/gameNseek-2.png": "/portfolio_2022/static/media/gameNseek-2.3cb22f422de8ebed964b.png",
     "static/media/applify-4.png": "/portfolio_2022/static/media/applify-4.d74f1bc13245fa02c0aa.png",
     "static/media/applify-3.png": "/portfolio_2022/static/media/applify-3.5c296b40ef81669f4bec.png",
     "static/media/nodebook-favicon.png": "/portfolio_2022/static/media/nodebook-favicon.36309a654012d1bf6c6d.png",
+    "static/media/peffl-3.PNG": "/portfolio_2022/static/media/peffl-3.5625b6015a83c72dbff1.PNG",
     "static/media/nodebook-5.png": "/portfolio_2022/static/media/nodebook-5.1c56aa0817385e2391c2.png",
     "static/media/applify-2.png": "/portfolio_2022/static/media/applify-2.31b81341b41af5dec8ec.png",
+    "static/media/peffl-1.PNG": "/portfolio_2022/static/media/peffl-1.3c28417765b303abcf59.PNG",
+    "static/media/peffl-2.PNG": "/portfolio_2022/static/media/peffl-2.ad0b27a9063a12d9d14f.PNG",
     "static/media/nodebook-7.PNG": "/portfolio_2022/static/media/nodebook-7.ade2dcc266869167540f.PNG",
     "static/media/applify-1.png": "/portfolio_2022/static/media/applify-1.db033995b27a920a7cf1.png",
-    "static/media/petstagram-favicon.png": "/portfolio_2022/static/media/petstagram-favicon.bc2cd0d74d84f1ef409b.png",
+    "static/media/peffl-4.PNG": "/portfolio_2022/static/media/peffl-4.91fdff10dcfb95662f81.PNG",
     "static/media/nodebook-8.PNG": "/portfolio_2022/static/media/nodebook-8.19a17f78793a063fca88.PNG",
     "static/media/pug.PNG": "/portfolio_2022/static/media/pug.2d8a7da3fe2f9a35e1bb.PNG",
     "static/media/ruby.png": "/portfolio_2022/static/media/ruby.cc6912251117f1ec81e6.png",
@@ -45,10 +44,10 @@
     "static/media/photoshop.png": "/portfolio_2022/static/media/photoshop.e36cb3b33bb034a11b62.png",
     "index.html": "/portfolio_2022/index.html",
     "main.897b5813.css.map": "/portfolio_2022/static/css/main.897b5813.css.map",
-    "main.502cfaac.js.map": "/portfolio_2022/static/js/main.502cfaac.js.map"
+    "main.677fa8c2.js.map": "/portfolio_2022/static/js/main.677fa8c2.js.map"
   },
   "entrypoints": [
     "static/css/main.897b5813.css",
-    "static/js/main.502cfaac.js"
+    "static/js/main.677fa8c2.js"
   ]
 }
