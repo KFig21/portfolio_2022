@@ -2,8 +2,9 @@
 import reactIcon from "../../assets/languages/react.png";
 import cssIcon from "../../assets/languages/css.png";
 import firebaseIcon from "../../assets/languages/firebase.png";
-import javascriptIcon from "../../assets/languages/javascript.png";
-import tailwindIcon from "../../assets/languages/tailwind.png";
+// import javascriptIcon from "../../assets/languages/javascript.png";
+// import tailwindIcon from "../../assets/languages/tailwind.png";
+import sqlIcon from "../../assets/languages/sql.png";
 import sassIcon from "../../assets/languages/sass.png";
 import nodeIcon from "../../assets/languages/node.png";
 import expressIcon from "../../assets/languages/node.png";
@@ -21,17 +22,22 @@ import nodebookImg7 from "../../assets/projects/node/nodebook/nodebook-7.PNG";
 import nodebookImg8 from "../../assets/projects/node/nodebook/nodebook-8.PNG";
 // applify Project images
 import applifyFavicon from "../../assets/projects/node/applify/applify-favicon.png";
-import applifyGif1 from "../../assets/projects/node/applify/applify-0.gif";
 import applifyImg1 from "../../assets/projects/node/applify/applify-1.png";
 import applifyImg2 from "../../assets/projects/node/applify/applify-2.png";
 import applifyImg3 from "../../assets/projects/node/applify/applify-3.png";
 import applifyImg4 from "../../assets/projects/node/applify/applify-4.png";
+// PEFFL project images
+import pefflFavicon from "../../assets/projects/node/peffl/peffl-favicon.png";
+import pefflImg1 from "../../assets/projects/node/peffl/peffl-1.PNG";
+import pefflImg2 from "../../assets/projects/node/peffl/peffl-2.PNG";
+import pefflImg3 from "../../assets/projects/node/peffl/peffl-3.PNG";
+import pefflImg4 from "../../assets/projects/node/peffl/peffl-4.PNG";
 // Petstagram project images
-import petstagramFavicon from "../../assets/projects/react/petstagram/petstagram-favicon.png";
-import petstagramImg1 from "../../assets/projects/react/petstagram/petstagram-1.PNG";
-import petstagramImg2 from "../../assets/projects/react/petstagram/petstagram-2.png";
-import petstagramImg3 from "../../assets/projects/react/petstagram/petstagram-3.PNG";
-import petstagramImg4 from "../../assets/projects/react/petstagram/petstagram-4.PNG";
+// import petstagramFavicon from "../../assets/projects/react/petstagram/petstagram-favicon.png";
+// import petstagramImg1 from "../../assets/projects/react/petstagram/petstagram-1.PNG";
+// import petstagramImg2 from "../../assets/projects/react/petstagram/petstagram-2.png";
+// import petstagramImg3 from "../../assets/projects/react/petstagram/petstagram-3.PNG";
+// import petstagramImg4 from "../../assets/projects/react/petstagram/petstagram-4.PNG";
 // Game & Seek project images
 import gameNseekFavicon from "../../assets/projects/games/gameNseek/gameNseek-favicon.png";
 import gameNseekImg1 from "../../assets/projects/games/gameNseek/gameNseek-1.PNG";
@@ -40,7 +46,7 @@ import gameNseekImg3 from "../../assets/projects/games/gameNseek/gameNseek-3.png
 import gameNseekImg4 from "../../assets/projects/games/gameNseek/gameNseek-4.PNG";
 
 export const nodebookProjectData = {
-  id: "21",
+  id: "1",
   icons: [
     { icon: mongodbIcon, color: "mongo" },
     { icon: expressIcon, color: "express" },
@@ -67,7 +73,7 @@ export const nodebookProjectData = {
 };
 
 export const applifyProjectData = {
-  id: "23",
+  id: "2",
   icons: [
     { icon: mongodbIcon, color: "mongo" },
     { icon: expressIcon, color: "express" },
@@ -95,29 +101,59 @@ export const applifyProjectData = {
 };
 
 export const petstagramProjectData = {
-  id: "1",
+  id: "3",
   icons: [
+    { icon: mongodbIcon, color: "mongo" },
+    { icon: expressIcon, color: "express" },
     { icon: reactIcon, color: "react" },
-    { icon: tailwindIcon, color: "tailwind" },
-    { icon: firebaseIcon, color: "firebase" },
+    { icon: nodeIcon, color: "node" },
+    { icon: reduxIcon, color: "redux" },
+    { icon: sqlIcon, color: "sql" },
+    { icon: sassIcon, color: "sass" },
+    { icon: awsIcon, color: "aws" },
+    { icon: jwtIcon, color: "jwt" },
+    { icon: reactIcon, color: "styled components" },
+    { icon: herokuIcon, color: "heroku" },
   ],
-  title: "Petstagram",
+  title: "PEFFL",
   preview:
-    "A fully functional and responsive Instagram re-creation built with React, Tailwind CSS, and Firebase.",
-  desc: "An Instagram re-creation built with React, Tailwind CSS, and Firebase. This is a fully functional and responsive app that allows users to create an account, post & crop photos, delete posts, comment, like/unlike, follow/unfollow, and change their avatar.",
-  favicon: petstagramFavicon,
+    "A comprehensive statistical archive for my fantasy football league. Built with the MERN stack, Redux, SQL and more.",
+  desc: "A comprehensive statistical archive for my fantasy football league. This project was built with the MERN stack, Redux, SQL and more. AWS RDS is used as an SQL database solution for the stats while mongodb is used for authentication. Members can customize their appearance and display theme with styled components.",
+  favicon: pefflFavicon,
   imgs: [
-    { src: petstagramImg1 },
-    { src: petstagramImg2 },
-    { src: petstagramImg3 },
-    { src: petstagramImg4 },
+    { src: pefflImg1 },
+    { src: pefflImg2 },
+    { src: pefflImg3 },
+    { src: pefflImg4 },
   ],
-  repository: "https://github.com/KFig21/petstagram",
-  live: "https://kfig21.github.io/petstagram/",
+  repository: "https://github.com/KFig21/PEFFL_archive",
+  live: "https://kfig21.github.io/PEFFL_archive/#/",
 };
 
+// export const petstagramProjectData = {
+//   id: "3",
+//   icons: [
+//     { icon: reactIcon, color: "react" },
+//     { icon: tailwindIcon, color: "tailwind" },
+//     { icon: firebaseIcon, color: "firebase" },
+//   ],
+//   title: "Petstagram",
+//   preview:
+//     "A fully functional and responsive Instagram re-creation built with React, Tailwind CSS, and Firebase.",
+//   desc: "An Instagram re-creation built with React, Tailwind CSS, and Firebase. This is a fully functional and responsive app that allows users to create an account, post & crop photos, delete posts, comment, like/unlike, follow/unfollow, and change their avatar.",
+//   favicon: petstagramFavicon,
+//   imgs: [
+//     { src: petstagramImg1 },
+//     { src: petstagramImg2 },
+//     { src: petstagramImg3 },
+//     { src: petstagramImg4 },
+//   ],
+//   repository: "https://github.com/KFig21/petstagram",
+//   live: "https://kfig21.github.io/petstagram/",
+// };
+
 export const gameNseekProjectData = {
-  id: "2",
+  id: "4",
   icons: [
     { icon: reactIcon, color: "react" },
     { icon: firebaseIcon, color: "firebase" },
