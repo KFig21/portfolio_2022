@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio_2022/static/css/main.897b5813.css",
-    "main.js": "/portfolio_2022/static/js/main.677fa8c2.js",
+    "main.css": "/portfolio_2022/static/css/main.b599d02f.css",
+    "main.js": "/portfolio_2022/static/js/main.79af76f2.js",
+    "static/media/pb3.mp4": "/portfolio_2022/static/media/pb3.ed495ed7bea059f41e12.mp4",
     "static/media/gameNseek-favicon.png": "/portfolio_2022/static/media/gameNseek-favicon.e34f69530cc901cf879e.png",
     "static/media/gameNseek-3.png": "/portfolio_2022/static/media/gameNseek-3.c27d13bf24a0721cc475.png",
     "static/media/gameNseek-4.PNG": "/portfolio_2022/static/media/gameNseek-4.6e122763b752cb40b972.PNG",
-    "static/media/lightBG.mp4": "/portfolio_2022/static/media/lightBG.c047515e11d1dd4200ca.mp4",
     "static/media/gameNseek-1.PNG": "/portfolio_2022/static/media/gameNseek-1.75d216fe04609acdeffb.PNG",
     "static/media/nodebook-6.png": "/portfolio_2022/static/media/nodebook-6.f41d60680c4ee25713d4.png",
     "static/media/peffl-favicon.png": "/portfolio_2022/static/media/peffl-favicon.317064f40abbe483f5a5.png",
@@ -43,11 +43,11 @@
     "static/media/javascript.png": "/portfolio_2022/static/media/javascript.4d2282365d68a133d123.png",
     "static/media/photoshop.png": "/portfolio_2022/static/media/photoshop.e36cb3b33bb034a11b62.png",
     "index.html": "/portfolio_2022/index.html",
-    "main.897b5813.css.map": "/portfolio_2022/static/css/main.897b5813.css.map",
-    "main.677fa8c2.js.map": "/portfolio_2022/static/js/main.677fa8c2.js.map"
+    "main.b599d02f.css.map": "/portfolio_2022/static/css/main.b599d02f.css.map",
+    "main.79af76f2.js.map": "/portfolio_2022/static/js/main.79af76f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.897b5813.css",
-    "static/js/main.677fa8c2.js"
+    "static/css/main.b599d02f.css",
+    "static/js/main.79af76f2.js"
   ]
 }
