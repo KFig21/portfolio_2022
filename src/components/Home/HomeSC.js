@@ -40,6 +40,7 @@ const HomeSC = {
     font-style: italic;
     z-index: 2;
     font-family: din-condensed, sans-serif;
+    text-shadow: 0px 0px 10px ${(props) => props.theme.colors.backgroundColor};
 
     @media (min-height: ${mobileHeightMin}) {
       @media (max-width: ${mobileWidthMax}) {
