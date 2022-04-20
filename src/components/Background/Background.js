@@ -1,7 +1,6 @@
 import React from "react";
 import "./Background.scss";
-// import lightBG from "./lightBG.mp4";
-import backgroundVideo from "./pb3.mp4";
+import backgroundVideo from "./backgroundVideo.mp4";
 
 export default function Background(theme) {
   return (

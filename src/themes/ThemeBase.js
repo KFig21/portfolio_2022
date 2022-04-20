@@ -1,6 +1,7 @@
 // DARK
 export const dark_BackgroundColor = "#000200";
 export const dark_NavBgColor = "#000200";
+export const dark_NavBgColorStart = "rgba(0, 2, 0, .35)";
 export const dark_textOnSkillColor = "#000200";
 export const dark_textOnBgColor = "rgb(210, 210, 210)";
 export const dark_textOnContainerColor = "rgb(210, 210, 210)";
@@ -16,6 +17,7 @@ export const dark_MM_ContainerColor = "rgb(12, 12, 12)";
 // LIGHT
 export const light_BackgroundColor = "#fefdfe";
 export const light_NavBgColor = "#fefdfe";
+export const light_NavBgColorStart = "rgba(254, 253, 254, .4)";
 export const light_textOnSkillColor = "#000200";
 export const light_textOnBgColor = "rgb(20, 20, 20)";
 export const light_textOnContainerColor = "rgb(230, 230, 230)";

@@ -12,7 +12,7 @@ const themeNotch = "10px";
 
 const NavSC = {
   Nav: styled.div`
-    background-color: transparent;
+    background-color: ${(props) => props.theme.colors.NavBgColorStart};
     position: fixed;
     top: 0px;
     left: 0px;

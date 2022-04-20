@@ -9,6 +9,7 @@ import {
 import {
   light_BackgroundColor,
   light_NavBgColor,
+  light_NavBgColorStart,
   light_textOnSkillColor,
   light_textOnBgColor,
   light_textOnContainerColor,
@@ -37,6 +38,7 @@ const lightBlueTheme = {
     primaryColorAnimation: blue_PrimaryColorAnimation, // primary
     backgroundColor: light_BackgroundColor,
     NavBgColor: light_NavBgColor,
+    NavBgColorStart: light_NavBgColorStart,
     textOnPrimaryColor: blue_textOnPrimaryColor,
     textOnSkillColor: light_textOnSkillColor,
     textOnBgColor: light_textOnBgColor,

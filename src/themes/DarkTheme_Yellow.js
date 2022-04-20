@@ -10,6 +10,7 @@ import {
 import {
   dark_BackgroundColor,
   dark_NavBgColor,
+  dark_NavBgColorStart,
   dark_textOnSkillColor,
   dark_textOnBgColor,
   dark_textOnContainerColor,
@@ -36,6 +37,7 @@ const darkYellowTheme = {
     primaryColorAnimation: yellow_PrimaryColorAnimation, // primary
     backgroundColor: dark_BackgroundColor,
     NavBgColor: dark_NavBgColor,
+    NavBgColorStart: dark_NavBgColorStart,
     textOnPrimaryColor: yellow_textOnPrimaryColor,
     textOnSkillColor: dark_textOnSkillColor,
     textOnBgColor: dark_textOnBgColor,
