@@ -12,7 +12,7 @@ const themeNotch = "10px";
 
 const NavSC = {
   Nav: styled.div`
-    background-color: ${(props) => props.theme.colors.NavBgColorStart};
+    background-color: transparent;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -26,12 +26,6 @@ const NavSC = {
 
     width: calc(100% - 22px);
     transition: all 0.2s ease;
-
-    @media (min-height: ${mobileHeightMin}) {
-      @media (max-width: ${mobileWidthMax}) {
-        background-color: transparent;
-      }
-    }
 
     &.true {
       background-color: ${(props) => props.theme.colors.NavBgColor};
@@ -53,6 +47,7 @@ const NavSC = {
     justify-content: space-between;
     position: relative;
     width: 92%;
+    background-color: ${(props) => props.theme.colors.NavBgColorStart};
   `,
   NavContainer: styled.div`
     display: flex;
