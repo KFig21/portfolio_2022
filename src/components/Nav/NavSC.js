@@ -27,6 +27,12 @@ const NavSC = {
     width: calc(100% - 22px);
     transition: all 0.2s ease;
 
+    @media (min-height: ${mobileHeightMin}) {
+      @media (max-width: ${mobileWidthMax}) {
+        background-color: transparent;
+      }
+    }
+
     &.true {
       background-color: ${(props) => props.theme.colors.NavBgColor};
       min-height: ${navHeight};
