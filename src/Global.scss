@@ -26,3 +26,13 @@
 body {
   margin: 0px !important;
 }
+
+$width: 800px;
+
+@mixin mobile {
+  @media (min-height: 421px) {
+    @media (max-width: #{$width}) {
+      @content;
+    }
+  }
+}
