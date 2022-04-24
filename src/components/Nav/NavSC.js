@@ -47,16 +47,17 @@ const NavSC = {
     justify-content: space-between;
     position: relative;
     width: 92%;
-    background-color: ${(props) => props.theme.colors.NavBgColorStart};
   `,
   NavContainer: styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: ${(props) => props.theme.colors.NavBgColorStart};
 
     &.nav-right {
       display: block;
       margin: auto 0px;
+      z-index: 1;
     }
 
     @media (min-height: ${mobileHeightMin}) {
