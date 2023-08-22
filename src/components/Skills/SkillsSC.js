@@ -19,6 +19,10 @@ import {
   excelColor,
   firebaseColor,
   herokuColor,
+  swiftColor,
+  typescriptColor,
+  postgresColor,
+  jiraColor,
   mobileWidthMax,
   mobileHeightMin,
   desktopWidthMin,
@@ -227,6 +231,21 @@ const SkillsSC = {
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
 
+      .typescript {
+        background-color: ${typescriptColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .postgres {
+        background-color: ${postgresColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .jira {
+        background-color: ${jiraColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
       .illustrator {
         background-color: ${illustratorColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
@@ -244,6 +263,11 @@ const SkillsSC = {
 
       .heroku {
         background-color: ${herokuColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .swift {
+        background-color: ${swiftColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
     }
@@ -369,6 +393,16 @@ const SkillsSC = {
         background-color: ${sqlColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
+
+      .swift {
+        background-color: ${swiftColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .typescript {
+        background-color: ${typescriptColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
     }
 
     &.technologies:hover + .section-container {
@@ -402,13 +436,13 @@ const SkillsSC = {
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
 
-      .heroku {
-        background-color: ${herokuColor};
+      .sass {
+        background-color: ${sassColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
 
-      .sass {
-        background-color: ${sassColor};
+      .postgres {
+        background-color: ${postgresColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
     }
@@ -418,8 +452,34 @@ const SkillsSC = {
         background-color: ${awsColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
+      
       .photoshop {
         background-color: ${photoshopColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+      
+      .typescript {
+        background-color: ${typescriptColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .swift {
+        background-color: ${swiftColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .postgres {
+        background-color: ${postgresColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .jira {
+        background-color: ${jiraColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
+      .heroku {
+        background-color: ${herokuColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
 
@@ -592,6 +652,22 @@ const SkillsSC = {
         background-color: ${photoshopColor};
       }
   
+      &.typescript {
+        background-color: ${typescriptColor};
+      }
+  
+      &.swift {
+        background-color: ${swiftColor};
+      }
+  
+      &.postgres {
+        background-color: ${postgresColor};
+      }
+  
+      &.jira {
+        background-color: ${jiraColor};
+      }
+  
       &.illustrator {
         background-color: ${illustratorColor};
       }
@@ -676,6 +752,22 @@ const SkillsSC = {
 
     &.photoshop {
       background-color: ${photoshopColor};
+    }
+
+    &.typescript {
+      background-color: ${typescriptColor};
+    }
+
+    &.swift {
+      background-color: ${swiftColor};
+    }
+
+    &.postgres {
+      background-color: ${postgresColor};
+    }
+
+    &.jira {
+      background-color: ${jiraColor};
     }
 
     &.illustrator {

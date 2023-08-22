@@ -22,6 +22,10 @@ export const herokuColor = "#8c4ff0";
 export const jwtColor = "#00c3b9";
 export const reduxColor = "#8c4ff0";
 export const tailwindColor = "#17bbb9";
+export const swiftColor = "#fe5f2e";
+export const typescriptColor = "#007dc9";
+export const postgresColor = "#006a92";
+export const jiraColor = "#008aff";
 // mobile
 export const mobileWidthMax = "800px";
 export const mobileHeightMin = "421px";

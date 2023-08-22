@@ -11,7 +11,7 @@ export default function Home(theme) {
       showCursor: false,
       backDelay: 2000,
       backSpeed: 60,
-      strings: ["Developer", "Designer", "Student"],
+      strings: ["Developer", "Designer", "Engineer"],
     });
   }, []);
 

@@ -42,7 +42,7 @@ export default function Skills() {
           </SkillsSC.SkillsTitle>
           <SkillsSC.SkillsInfo className="info-p">
             <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> Through my
-            programming journey I have learned many languages and technologies
+            career in software development I have learned many languages and technologies
             that I am comfortable with. Programming aside, I have valuable
             skills with other software.
           </SkillsSC.SkillsInfo>

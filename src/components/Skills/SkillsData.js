@@ -21,28 +21,32 @@ import mysqlIcon from "../../assets/languages/mysql.PNG";
 import gitIcon from "../../assets/languages/git.png";
 import awsIcon from "../../assets/languages/aws.png";
 import herokuIcon from "../../assets/languages/heroku.png";
+import swiftIcon from "../../assets/languages/swift.png";
+import typescriptIcon from "../../assets/languages/typescript.png";
+import postgresIcon from "../../assets/languages/postgres.png";
+import jiraIcon from "../../assets/languages/jira.png";
 
 // languages and skills
 export const languages = [
   {
     name: "Javascript",
     icon: javascriptIcon,
+    exp: "3",
+  },
+  {
+    name: "Typescript",
+    icon: typescriptIcon,
+    exp: "2",
+  },
+  {
+    name: "Swift",
+    icon: swiftIcon,
     exp: "2",
   },
   {
     name: "CSS",
     icon: cssIcon,
-    exp: "2",
-  },
-  {
-    name: "HTML",
-    icon: htmlIcon,
-    exp: "2",
-  },
-  {
-    name: "SQL",
-    icon: sqlIcon,
-    exp: "1",
+    exp: "3",
   },
   // {
   //   name: "PHP",
@@ -68,43 +72,43 @@ export const languages = [
 
 export const techData = [
   {
-    name: "Mongo",
-    icon: mongodbIcon,
-    exp: "1",
-  },
-  {
-    name: "Express",
-    icon: expressIcon,
-    exp: "1",
-  },
-  {
     name: "React",
     icon: reactIcon,
-    exp: "1",
+    exp: "2",
   },
   {
     name: "Node",
     icon: nodeIcon,
-    exp: "1",
+    exp: "2",
   },
   {
-    name: "Styled Components",
-    icon: reactIcon,
-    exp: "1",
+    name: "Express",
+    icon: expressIcon,
+    exp: "2",
+  },
+  {
+    name: "Mongo",
+    icon: mongodbIcon,
+    exp: "2",
+  },
+  {
+    name: "Postgres",
+    icon: postgresIcon,
+    exp: "2",
   },
   {
     name: "MySQL",
     icon: mysqlIcon,
-    exp: "1",
+    exp: "2",
   },
   {
     name: "SASS",
     icon: sassIcon,
-    exp: "1",
+    exp: "2",
   },
   {
-    name: "Heroku",
-    icon: herokuIcon,
+    name: "Styled Components",
+    icon: reactIcon,
     exp: "1",
   },
 ];
@@ -121,18 +125,23 @@ export const otherSkills = [
   //   exp: "5",
   // },
   {
-    name: "Excel",
-    icon: excelIcon,
-    exp: "15",
-  },
-  {
-    name: "Firebase",
-    icon: firebaseIcon,
-    exp: "1",
+    name: "Heroku",
+    icon: herokuIcon,
+    exp: "2",
   },
   {
     name: "AWS",
     icon: awsIcon,
     exp: "1",
   },
+  {
+    name: "Jira",
+    icon: jiraIcon,
+    exp: "2",
+  },
+  // {
+  //   name: "Firebase",
+  //   icon: firebaseIcon,
+  //   exp: "1",
+  // },
 ];

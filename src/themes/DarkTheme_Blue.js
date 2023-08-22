@@ -1,4 +1,4 @@
-// yellow imports
+// blue imports
 import {
   blue_PrimaryColor,
   blue_PrimaryColorFaded,

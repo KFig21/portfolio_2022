@@ -26,13 +26,13 @@ export default function About() {
           <AboutSC.AboutTitle href="#about">ABOUT ME</AboutSC.AboutTitle>
           <AboutSC.AboutInfo className="info-p">
             <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> Welcome! My name is
-            Kevin Figenshu, I am a self-taught developer and web designer.
+            Kevin Figenshu,  I am a Software Engineer with 1.5 years of professional experience.
           </AboutSC.AboutInfo>
           <AboutSC.AboutInfo className="info-p">
             <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> Starting from
             no-code in January of 2020 I became obsessed with the world of
             programming. Poring through resources such as The Odin Project,
-            LeetCode, and Codecademy I have been developing the necessary skills
+            LeetCode, and Codecademy I developed the necessary skills
             for becoming a full stack developer.
           </AboutSC.AboutInfo>
           <AboutSC.AboutLWT>&gt; Let's work together!</AboutSC.AboutLWT>
