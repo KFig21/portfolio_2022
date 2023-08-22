@@ -26,6 +26,7 @@ export const swiftColor = "#fe5f2e";
 export const typescriptColor = "#007dc9";
 export const postgresColor = "#006a92";
 export const jiraColor = "#008aff";
+export const gitColor = "#f0563b";
 // mobile
 export const mobileWidthMax = "800px";
 export const mobileHeightMin = "421px";

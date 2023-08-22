@@ -107,23 +107,29 @@ export const techData = [
     exp: "2",
   },
   {
-    name: "Styled Components",
-    icon: reactIcon,
-    exp: "1",
+    name: "Git",
+    icon: gitIcon,
+    exp: "3",
   },
+  // {
+  //   name: "Styled Components",
+  //   icon: reactIcon,
+  //   exp: "1",
+  // },
 ];
 
 export const otherSkills = [
-  {
-    name: "Photoshop",
-    icon: photoshopIcon,
-    exp: "5",
-  },
+
   // {
   //   name: "Illustrator",
   //   icon: illustratorIcon,
   //   exp: "5",
   // },
+  {
+    name: "Jira",
+    icon: jiraIcon,
+    exp: "2",
+  },
   {
     name: "Heroku",
     icon: herokuIcon,
@@ -135,9 +141,9 @@ export const otherSkills = [
     exp: "1",
   },
   {
-    name: "Jira",
-    icon: jiraIcon,
-    exp: "2",
+    name: "Photoshop",
+    icon: photoshopIcon,
+    exp: "5",
   },
   // {
   //   name: "Firebase",

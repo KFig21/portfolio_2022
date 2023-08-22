@@ -23,6 +23,7 @@ import {
   typescriptColor,
   postgresColor,
   jiraColor,
+  gitColor,
   mobileWidthMax,
   mobileHeightMin,
   desktopWidthMin,
@@ -246,6 +247,11 @@ const SkillsSC = {
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
 
+      .git {
+        background-color: ${gitColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }
+
       .illustrator {
         background-color: ${illustratorColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
@@ -443,6 +449,11 @@ const SkillsSC = {
 
       .postgres {
         background-color: ${postgresColor};
+        color: ${(props) => props.theme.colors.textOnSkillColor};
+      }      
+      
+      .git {
+        background-color: ${gitColor};
         color: ${(props) => props.theme.colors.textOnSkillColor};
       }
     }
@@ -668,6 +679,10 @@ const SkillsSC = {
         background-color: ${jiraColor};
       }
   
+      &.git {
+        background-color: ${gitColor};
+      }
+  
       &.illustrator {
         background-color: ${illustratorColor};
       }
@@ -768,6 +783,10 @@ const SkillsSC = {
 
     &.jira {
       background-color: ${jiraColor};
+    }
+
+    &.git {
+      background-color: ${gitColor};
     }
 
     &.illustrator {
