@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.e633fdb3.css",
-    "main.js": "/portfolio_2022/static/js/main.b3644d68.js",
+    "main.js": "/portfolio_2022/static/js/main.9cacf18c.js",
     "static/media/backgroundVideo.mp4": "/portfolio_2022/static/media/backgroundVideo.ff588ebb1a19bb5cc7d6.mp4",
     "static/media/gameNseek-favicon.png": "/portfolio_2022/static/media/gameNseek-favicon.e34f69530cc901cf879e.png",
     "static/media/gameNseek-3.png": "/portfolio_2022/static/media/gameNseek-3.c27d13bf24a0721cc475.png",
@@ -24,12 +24,14 @@
     "static/media/nodebook-8.PNG": "/portfolio_2022/static/media/nodebook-8.19a17f78793a063fca88.PNG",
     "static/media/pug.PNG": "/portfolio_2022/static/media/pug.2d8a7da3fe2f9a35e1bb.PNG",
     "static/media/ruby.png": "/portfolio_2022/static/media/ruby.cc6912251117f1ec81e6.png",
+    "static/media/postgres.png": "/portfolio_2022/static/media/postgres.99995c2d5e70877298d2.png",
     "static/media/react.png": "/portfolio_2022/static/media/react.a3ddf27e62eb2547cf4b.png",
     "static/media/php.png": "/portfolio_2022/static/media/php.151a41a824f7e4082eef.png",
     "static/media/logo_1.png": "/portfolio_2022/static/media/logo_1.28e50e1cdb40f9c29723.png",
     "static/media/applify-favicon.png": "/portfolio_2022/static/media/applify-favicon.d7cdf837f2e8ca09b485.png",
     "static/media/sass.png": "/portfolio_2022/static/media/sass.59c3bd22ebfb0552f141.png",
     "static/media/mongodb.PNG": "/portfolio_2022/static/media/mongodb.eb8fa94e7368a8431b7d.PNG",
+    "static/media/swift.png": "/portfolio_2022/static/media/swift.486f3e1827eb30f94aee.png",
     "static/media/excel.PNG": "/portfolio_2022/static/media/excel.3c6b17762d19a9d2ed83.PNG",
     "static/media/jwt.png": "/portfolio_2022/static/media/jwt.d54f7effa8ed58602b25.png",
     "static/media/redux.png": "/portfolio_2022/static/media/redux.e167b00044231e4ca568.png",
@@ -44,10 +46,10 @@
     "static/media/photoshop.png": "/portfolio_2022/static/media/photoshop.e36cb3b33bb034a11b62.png",
     "index.html": "/portfolio_2022/index.html",
     "main.e633fdb3.css.map": "/portfolio_2022/static/css/main.e633fdb3.css.map",
-    "main.b3644d68.js.map": "/portfolio_2022/static/js/main.b3644d68.js.map"
+    "main.9cacf18c.js.map": "/portfolio_2022/static/js/main.9cacf18c.js.map"
   },
   "entrypoints": [
     "static/css/main.e633fdb3.css",
-    "static/js/main.b3644d68.js"
+    "static/js/main.9cacf18c.js"
   ]
 }
