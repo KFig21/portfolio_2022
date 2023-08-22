@@ -88,7 +88,7 @@ export const applifyProjectData = {
   title: "Applify",
   preview:
     "While on my job search I decided to build a web app that would assist me in the process. Applify is built with the MERN stack, JWT authentication and more.",
-  desc: "While on my job search I decided to build a web app that would assist me in the process. Applify is built with the MERN stack, React sticky-tables, styled components, and JWT authentication. The goal of this project is to help simplify and streamline the job search process by allowing users to track their applications and store their credientials in easily accessible quick-links.",
+  desc: "While on my job search I decided to build a web app that would assist me in the process. Applify is built with the MERN stack, React sticky-tables, styled components, and JWT authentication. The goal of this project is to help simplify and streamline the job search process by allowing users to track their applications and store their credentials in easily accessible quick-links.",
   favicon: applifyFavicon,
   imgs: [
     { src: applifyImg1 },
