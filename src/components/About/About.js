@@ -26,7 +26,7 @@ export default function About() {
           <AboutSC.AboutTitle href="#about">ABOUT ME</AboutSC.AboutTitle>
           <AboutSC.AboutInfo className="info-p">
             <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> Welcome! My name is
-            Kevin Figenshu,  I am a Software Engineer with 1.5 years of professional experience.
+            Kevin Figenshu,  I am a Software Engineer with 2 years of professional experience.
           </AboutSC.AboutInfo>
           <AboutSC.AboutInfo className="info-p">
             <SC.PrimaryColorText>&gt;</SC.PrimaryColorText> Starting from

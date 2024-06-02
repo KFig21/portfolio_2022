@@ -31,7 +31,7 @@ export const languages = [
   {
     name: "Javascript",
     icon: javascriptIcon,
-    exp: "3",
+    exp: "4",
   },
   {
     name: "Typescript",
@@ -46,7 +46,7 @@ export const languages = [
   {
     name: "CSS",
     icon: cssIcon,
-    exp: "3",
+    exp: "4",
   },
   // {
   //   name: "PHP",
@@ -74,17 +74,17 @@ export const techData = [
   {
     name: "React",
     icon: reactIcon,
-    exp: "2",
+    exp: "4",
   },
   {
     name: "Node",
     icon: nodeIcon,
-    exp: "2",
+    exp: "4",
   },
   {
     name: "Express",
     icon: expressIcon,
-    exp: "2",
+    exp: "3",
   },
   {
     name: "Mongo",
@@ -99,17 +99,17 @@ export const techData = [
   {
     name: "MySQL",
     icon: mysqlIcon,
-    exp: "2",
+    exp: "3",
   },
   {
     name: "SASS",
     icon: sassIcon,
-    exp: "2",
+    exp: "3",
   },
   {
     name: "Git",
     icon: gitIcon,
-    exp: "3",
+    exp: "4",
   },
   // {
   //   name: "Styled Components",
