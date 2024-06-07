@@ -1,10 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.e633fdb3.css",
-    "main.js": "/portfolio_2022/static/js/main.16aaad25.js",
+    "main.js": "/portfolio_2022/static/js/main.47b768b7.js",
     "static/media/backgroundVideo.mp4": "/portfolio_2022/static/media/backgroundVideo.ff588ebb1a19bb5cc7d6.mp4",
+    "static/media/ResumeDR.pdf": "/portfolio_2022/static/media/ResumeDR.e9f97e72073d2626904e.pdf",
+    "static/media/ResumeDG.pdf": "/portfolio_2022/static/media/ResumeDG.e66150e35b256cb1e223.pdf",
+    "static/media/ResumeDB.pdf": "/portfolio_2022/static/media/ResumeDB.4de307b78590c9caa7ba.pdf",
+    "static/media/ResumeLB.pdf": "/portfolio_2022/static/media/ResumeLB.81a0298f292392e8b7df.pdf",
+    "static/media/ResumeLG.pdf": "/portfolio_2022/static/media/ResumeLG.bc5af8039e36fd65b633.pdf",
+    "static/media/ResumeDY.pdf": "/portfolio_2022/static/media/ResumeDY.b5f306394b919ae9f65e.pdf",
     "static/media/gameNseek-favicon.png": "/portfolio_2022/static/media/gameNseek-favicon.e34f69530cc901cf879e.png",
     "static/media/gameNseek-3.png": "/portfolio_2022/static/media/gameNseek-3.c27d13bf24a0721cc475.png",
+    "static/media/ResumeLR.pdf": "/portfolio_2022/static/media/ResumeLR.cdb8f484182afc518c81.pdf",
+    "static/media/ResumeLY.pdf": "/portfolio_2022/static/media/ResumeLY.f8974cfd81a2a24ce332.pdf",
     "static/media/gameNseek-4.PNG": "/portfolio_2022/static/media/gameNseek-4.6e122763b752cb40b972.PNG",
     "static/media/gameNseek-1.PNG": "/portfolio_2022/static/media/gameNseek-1.75d216fe04609acdeffb.PNG",
     "static/media/nodebook-6.png": "/portfolio_2022/static/media/nodebook-6.f41d60680c4ee25713d4.png",
@@ -46,10 +54,10 @@
     "static/media/photoshop.png": "/portfolio_2022/static/media/photoshop.e36cb3b33bb034a11b62.png",
     "index.html": "/portfolio_2022/index.html",
     "main.e633fdb3.css.map": "/portfolio_2022/static/css/main.e633fdb3.css.map",
-    "main.16aaad25.js.map": "/portfolio_2022/static/js/main.16aaad25.js.map"
+    "main.47b768b7.js.map": "/portfolio_2022/static/js/main.47b768b7.js.map"
   },
   "entrypoints": [
     "static/css/main.e633fdb3.css",
-    "static/js/main.16aaad25.js"
+    "static/js/main.47b768b7.js"
   ]
 }
