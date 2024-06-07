@@ -14,6 +14,7 @@ import Brightness5Icon from "@mui/icons-material/Brightness5";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
+import ResumeModal from "./resume/ResumeModal";
 
 export default function Nav({
   scrollProgress,
@@ -170,6 +171,8 @@ export default function Nav({
               </NavSC.MailContainer>
             </NavSC.MailWrapper>
           </NavSC.NavIcon>
+          {/* Resume */}
+          <ResumeModal theme={theme} />
         </NavSC.NavContainer>
         <NavSC.NavCenter>
           <NavSC.NavLink href="#home">

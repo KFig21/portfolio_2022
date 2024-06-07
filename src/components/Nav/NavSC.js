@@ -84,6 +84,7 @@ const NavSC = {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 101;
 
     .navbar-svg-g {
       fill: ${(props) => props.theme.colors.primaryColor};
