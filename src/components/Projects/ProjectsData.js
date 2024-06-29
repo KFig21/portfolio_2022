@@ -1,8 +1,9 @@
 // language icon images
 import reactIcon from "../../assets/languages/react.png";
-import cssIcon from "../../assets/languages/css.png";
+// import cssIcon from "../../assets/languages/css.png";
 import firebaseIcon from "../../assets/languages/firebase.png";
 // import javascriptIcon from "../../assets/languages/javascript.png";
+import typescriptIcon from "../../assets/languages/typescript.png";
 // import tailwindIcon from "../../assets/languages/tailwind.png";
 import sqlIcon from "../../assets/languages/sql.png";
 import sassIcon from "../../assets/languages/sass.png";
@@ -32,18 +33,28 @@ import pefflImg1 from "../../assets/projects/node/peffl/peffl-1.PNG";
 import pefflImg2 from "../../assets/projects/node/peffl/peffl-2.PNG";
 import pefflImg3 from "../../assets/projects/node/peffl/peffl-3.PNG";
 import pefflImg4 from "../../assets/projects/node/peffl/peffl-4.PNG";
+
+// CalcHouse project images
+import calcHouseFavicon from "../../assets/projects/react/calcHouse/calcHouse-favicon.png";
+import calcHouseImg1 from "../../assets/projects/react/calcHouse/calcHouse-1.png";
+import calcHouseImg2 from "../../assets/projects/react/calcHouse/calcHouse-2.png";
+import calcHouseImg3 from "../../assets/projects/react/calcHouse/calcHouse-3.png";
+import calcHouseImg4 from "../../assets/projects/react/calcHouse/calcHouse-4.png";
+import calcHouseImg5 from "../../assets/projects/react/calcHouse/calcHouse-5.png";
+
 // Petstagram project images
 // import petstagramFavicon from "../../assets/projects/react/petstagram/petstagram-favicon.png";
 // import petstagramImg1 from "../../assets/projects/react/petstagram/petstagram-1.PNG";
 // import petstagramImg2 from "../../assets/projects/react/petstagram/petstagram-2.png";
 // import petstagramImg3 from "../../assets/projects/react/petstagram/petstagram-3.PNG";
 // import petstagramImg4 from "../../assets/projects/react/petstagram/petstagram-4.PNG";
+
 // Game & Seek project images
-import gameNseekFavicon from "../../assets/projects/games/gameNseek/gameNseek-favicon.png";
-import gameNseekImg1 from "../../assets/projects/games/gameNseek/gameNseek-1.PNG";
-import gameNseekImg2 from "../../assets/projects/games/gameNseek/gameNseek-2.png";
-import gameNseekImg3 from "../../assets/projects/games/gameNseek/gameNseek-3.png";
-import gameNseekImg4 from "../../assets/projects/games/gameNseek/gameNseek-4.PNG";
+// import gameNseekFavicon from "../../assets/projects/games/gameNseek/gameNseek-favicon.png";
+// import gameNseekImg1 from "../../assets/projects/games/gameNseek/gameNseek-1.PNG";
+// import gameNseekImg2 from "../../assets/projects/games/gameNseek/gameNseek-2.png";
+// import gameNseekImg3 from "../../assets/projects/games/gameNseek/gameNseek-3.png";
+// import gameNseekImg4 from "../../assets/projects/games/gameNseek/gameNseek-4.PNG";
 
 export const nodebookProjectData = {
   id: "1",
@@ -130,6 +141,29 @@ export const petstagramProjectData = {
   live: "https://kfig21.github.io/PEFFL_archive/#/",
 };
 
+export const calcHouseProjectData = {
+  id: "4",
+  icons: [
+    { icon: reactIcon, color: "react" },
+    { icon: typescriptIcon, color: "typescript" },
+    { icon: sassIcon, color: "sass" },
+  ],
+  title: "CalcHouse",
+  preview:
+    "A house purchasing budget and mortgage calculator in one. This project was built with React, TypeScript, Recharts, & SASS.",
+  desc: "CalcHouse is both a house purchasing budget and mortgage calculator in one. Set the inputs to accurately determine what house price you can afford and how much it will actually cost by the end of the loan term. Set the calculation to 'mortgage' to find out exactly what your monthly payments will be and how the amortization schedule is broken down.",
+  favicon: calcHouseFavicon,
+  imgs: [
+    { src: calcHouseImg1 },
+    { src: calcHouseImg2 },
+    { src: calcHouseImg3 },
+    { src: calcHouseImg4 },
+    { src: calcHouseImg5 },
+  ],
+  repository: "https://github.com/KFig21/house_calc",
+  live: "https://kfig21.github.io/house_calc/",
+};
+
 // export const petstagramProjectData = {
 //   id: "3",
 //   icons: [
@@ -152,24 +186,24 @@ export const petstagramProjectData = {
 //   live: "https://kfig21.github.io/petstagram/",
 // };
 
-export const gameNseekProjectData = {
-  id: "4",
-  icons: [
-    { icon: reactIcon, color: "react" },
-    { icon: firebaseIcon, color: "firebase" },
-    { icon: cssIcon, color: "css" },
-  ],
-  title: "Game & Seek",
-  preview:
-    "A 'Where's Waldo' character finding game with 8 unique levels. This project was built with React and uses Firebase for a backend database.",
-  desc: "A 'Where's Waldo' character finding game, this project was built with React and uses Firebase for a backend database. The game features 8 unique levels and a global leaderboard that updates in realtime. Explicit user names submitted to the leaderboard are censored with emojis.",
-  favicon: gameNseekFavicon,
-  imgs: [
-    { src: gameNseekImg1 },
-    { src: gameNseekImg2 },
-    { src: gameNseekImg3 },
-    { src: gameNseekImg4 },
-  ],
-  repository: "https://github.com/KFig21/photo_tagging_app",
-  live: "https://kfig21.github.io/photo_tagging_app/",
-};
+// export const gameNseekProjectData = {
+//   id: "4",
+//   icons: [
+//     { icon: reactIcon, color: "react" },
+//     { icon: firebaseIcon, color: "firebase" },
+//     { icon: cssIcon, color: "css" },
+//   ],
+//   title: "Game & Seek",
+//   preview:
+//     "A 'Where's Waldo' character finding game with 8 unique levels. This project was built with React and uses Firebase for a backend database.",
+//   desc: "A 'Where's Waldo' character finding game, this project was built with React and uses Firebase for a backend database. The game features 8 unique levels and a global leaderboard that updates in realtime. Explicit user names submitted to the leaderboard are censored with emojis.",
+//   favicon: gameNseekFavicon,
+//   imgs: [
+//     { src: gameNseekImg1 },
+//     { src: gameNseekImg2 },
+//     { src: gameNseekImg3 },
+//     { src: gameNseekImg4 },
+//   ],
+//   repository: "https://github.com/KFig21/photo_tagging_app",
+//   live: "https://kfig21.github.io/photo_tagging_app/",
+// };

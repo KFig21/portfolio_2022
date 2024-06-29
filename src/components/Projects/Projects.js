@@ -5,7 +5,7 @@ import {
   nodebookProjectData,
   applifyProjectData,
   petstagramProjectData,
-  gameNseekProjectData,
+  calcHouseProjectData,
 } from "./ProjectsData";
 import OpenInFullIcon from "@mui/icons-material/OpenInFull";
 import CloseFullscreenIcon from "@mui/icons-material/CloseFullscreen";
@@ -22,7 +22,7 @@ export default function Projects({
     nodebookProjectData,
     applifyProjectData,
     petstagramProjectData,
-    gameNseekProjectData,
+    calcHouseProjectData,
   ];
   const [active, setActive] = useState(false);
   // true: all projects, false: single project

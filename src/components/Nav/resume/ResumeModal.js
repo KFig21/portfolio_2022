@@ -14,7 +14,6 @@ import ResumeLY from '../../../assets/resumes/ResumeLY.pdf'
 export default function ResumeModal({ theme }) {
     const [showResumeModal, setShowResumeModal] = useState(false)
     const [resume, setResume] = useState(ResumeDY)
-    console.log('theme:', theme)
     useEffect(() => {
         switch (theme.name) {
             case 'darkBlueTheme':

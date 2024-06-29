@@ -26,6 +26,7 @@ import {
   mobileHeightMin,
   desktopWidthMin,
   mobileKeyboardHeightMax,
+  typescriptColor
 } from "../../themes/SC";
 
 const notch = "60px";
@@ -691,6 +692,10 @@ const ProjectsSC = {
 
     &.javascript {
       background-color: ${javascriptColor};
+    }
+
+    &.typescript {
+      background-color: ${typescriptColor};
     }
 
     &.html {
