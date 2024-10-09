@@ -1,5 +1,5 @@
 // DARK
-export const dark_BackgroundColor = "#000200";
+export const dark_BackgroundColor = "#121213";
 export const dark_NavBgColor = "#000200";
 export const dark_NavBgColorStart = "rgba(0, 2, 0, .35)";
 export const dark_textOnSkillColor = "#000200";
