@@ -13,6 +13,7 @@ export const dark_ThemeContainerBgColor = "rgba(150, 150, 150, 0.0)";
 export const dark_CurrentImgBorderColor = "rgb(68,72,76)";
 export const dark_MM_BackgroundColor = "rgba(10, 10, 10, 0.75)";
 export const dark_MM_ContainerColor = "rgb(12, 12, 12)";
+export const dark_ScrollbarTrackColor = "#000200";
 
 // LIGHT
 export const light_BackgroundColor = "#fefdfe";
@@ -32,6 +33,7 @@ export const light_ThemeContainerBgColor = "rgba(20, 20, 20, 0.0)";
 export const light_CurrentImgBorderColor = "rgb(68,72,76)";
 export const light_MM_BackgroundColor = "rgba(150,150,150, .3)";
 export const light_MM_ContainerColor = "rgb(12, 12, 12)";
+export const light_ScrollbarTrackColor = "#fefdfe";
 
 // YELLOW
 export const yellow_PrimaryColor = "rgb(247, 189, 42)";

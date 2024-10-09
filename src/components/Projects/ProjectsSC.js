@@ -45,7 +45,6 @@ const techIconWidth = "16px";
 
 const ProjectsSC = {
   ProjectsPage: styled.div`
-    background-color: ${(props) => props.theme.colors.backgroundColor};
 
     width: 100vw;
     min-height: 100vh;
@@ -56,6 +55,7 @@ const ProjectsSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index: 1;
 
     @media (max-height: ${mobileKeyboardHeightMax}) {
       @media (max-width: ${mobileWidthMax}) {

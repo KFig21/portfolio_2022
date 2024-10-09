@@ -13,7 +13,6 @@ const buttonNotch = "10px";
 
 const ContactSC = {
   ContactPage: styled.div`
-    background-color: ${(props) => props.theme.colors.backgroundColor};
 
     width: 100vw;
     min-height: 100vh;
@@ -25,6 +24,8 @@ const ContactSC = {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index: 1;
+    
   `,
   ContactContainer: styled.div`
     background-color: ${(props) => props.theme.colors.ContainerBgColor};

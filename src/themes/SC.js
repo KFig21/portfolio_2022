@@ -41,6 +41,7 @@ const SC = {
     min-height: 100vh;
     max-height: 100vh;
     color: ${(props) => props.theme.colors.textOnBgColor} !important;
+    background-color: ${(props) => props.theme.colors.backgroundColor};
     position: relative;
     display: flex;
     flex-direction: column;
@@ -57,8 +58,8 @@ const SC = {
     }
 
     ::-webkit-scrollbar-track {
-      background-color: ${(props) => props.theme.colors.backgroundColor};
-      background: ${(props) => props.theme.colors.backgroundColor};
+      background-color: ${(props) => props.theme.colors.scrollbarTrackColor};
+      background: ${(props) => props.theme.colors.scrollbarTrackColor};
     }
 
     ::-webkit-scrollbar-thumb {

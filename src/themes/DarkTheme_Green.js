@@ -22,6 +22,7 @@ import {
   dark_CurrentImgBorderColor,
   dark_MM_BackgroundColor,
   dark_MM_ContainerColor,
+  dark_ScrollbarTrackColor
 } from "./ThemeBase";
 
 // THEME
@@ -36,6 +37,7 @@ const darkGreenTheme = {
     primaryColorFaded: green_PrimaryColorFaded, // primary faded
     primaryColorAnimation: green_PrimaryColorAnimation, // primary
     backgroundColor: dark_BackgroundColor,
+    scrollbarTrackColor: dark_ScrollbarTrackColor,
     NavBgColor: dark_NavBgColor,
     NavBgColorStart: dark_NavBgColorStart,
     textOnPrimaryColor: green_textOnPrimaryColor,

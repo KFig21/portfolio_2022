@@ -24,6 +24,7 @@ import {
   light_CurrentImgBorderColor,
   light_MM_BackgroundColor,
   light_MM_ContainerColor,
+  light_ScrollbarTrackColor
 } from "./ThemeBase";
 
 const lightYellowTheme = {
@@ -37,6 +38,7 @@ const lightYellowTheme = {
     primaryColorFaded: yellow_PrimaryColorFaded, // primary
     primaryColorAnimation: yellow_PrimaryColorAnimation, // primary
     backgroundColor: light_BackgroundColor,
+    scrollbarTrackColor: light_ScrollbarTrackColor,
     NavBgColor: light_NavBgColor,
     NavBgColorStart: light_NavBgColorStart,
     textOnPrimaryColor: yellow_textOnPrimaryColor,
