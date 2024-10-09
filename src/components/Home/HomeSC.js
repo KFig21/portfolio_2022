@@ -46,6 +46,7 @@ const HomeSC = {
       @media (max-width: ${mobileWidthMax}) {
         font-size: 70px;
         text-align: center;
+        font-weight: 900;
       }
     }
   `,

@@ -23,7 +23,7 @@ export default function Home(theme) {
       <SC.PageCorner className="bottom left"></SC.PageCorner>
       <SC.PageCorner className="bottom right"></SC.PageCorner>
       {/* CONTENT */}
-      <HomeSC.HomeTitle style={{fontWeight: '900'}}>KEVIN FIGENSHU</HomeSC.HomeTitle>
+      <HomeSC.HomeTitle>KEVIN FIGENSHU</HomeSC.HomeTitle>
       <HomeSC.HomeSubtextContainer>
         <HomeSC.HomeSubtextWrapper>
           <HomeSC.HomeSubtext className="cursor"> &gt; </HomeSC.HomeSubtext>
