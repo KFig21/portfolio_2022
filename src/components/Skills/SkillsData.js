@@ -36,7 +36,7 @@ export const languages = [
   {
     name: "Typescript",
     icon: typescriptIcon,
-    exp: "2",
+    exp: "4",
   },
   {
     name: "Swift",
@@ -84,12 +84,12 @@ export const techData = [
   {
     name: "Express",
     icon: expressIcon,
-    exp: "3",
+    exp: "4",
   },
   {
     name: "Mongo",
     icon: mongodbIcon,
-    exp: "2",
+    exp: "3",
   },
   {
     name: "Postgres",
@@ -104,7 +104,7 @@ export const techData = [
   {
     name: "SASS",
     icon: sassIcon,
-    exp: "3",
+    exp: "4",
   },
   {
     name: "Git",
@@ -128,7 +128,7 @@ export const otherSkills = [
   {
     name: "Jira",
     icon: jiraIcon,
-    exp: "2",
+    exp: "3",
   },
   {
     name: "Heroku",
@@ -143,7 +143,7 @@ export const otherSkills = [
   {
     name: "Photoshop",
     icon: photoshopIcon,
-    exp: "5",
+    exp: "8",
   },
   // {
   //   name: "Firebase",
