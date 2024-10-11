@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.96752b56.css",
-    "main.js": "/portfolio_2022/static/js/main.91c85588.js",
+    "main.js": "/portfolio_2022/static/js/main.64baea40.js",
     "static/media/backgroundVideo.mp4": "/portfolio_2022/static/media/backgroundVideo.ff588ebb1a19bb5cc7d6.mp4",
     "static/media/peffl-favicon.png": "/portfolio_2022/static/media/peffl-favicon.d32c0cde71b1bef06885.png",
     "static/media/ResumeDG.pdf": "/portfolio_2022/static/media/ResumeDG.db4c2d5bfcabc3479dc8.pdf",
@@ -55,10 +55,10 @@
     "static/media/photoshop.png": "/portfolio_2022/static/media/photoshop.e36cb3b33bb034a11b62.png",
     "index.html": "/portfolio_2022/index.html",
     "main.96752b56.css.map": "/portfolio_2022/static/css/main.96752b56.css.map",
-    "main.91c85588.js.map": "/portfolio_2022/static/js/main.91c85588.js.map"
+    "main.64baea40.js.map": "/portfolio_2022/static/js/main.64baea40.js.map"
   },
   "entrypoints": [
     "static/css/main.96752b56.css",
-    "static/js/main.91c85588.js"
+    "static/js/main.64baea40.js"
   ]
 }
